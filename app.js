@@ -123,7 +123,7 @@ function Footer() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />                   
                 </span>
                 <span id="github">
-                    <a href="https://github.com/Jeffs0412/note-taking-app" target="_blank" className="devicon-github-original"></a>
+                    <a href="https://github.com/Jeffs0412/coffee-info" target="_blank" className="devicon-github-original"></a>
                         <p id="source-code">Visit Repository</p>
                 </span>
             </div>
