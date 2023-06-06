@@ -96,8 +96,6 @@ function Coffees() {
 }
 
 
-
-
 function Countries() {
     return (
         <ul>
