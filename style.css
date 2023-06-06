@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 15%;
   }
   .header {
     display: flex;
@@ -29,19 +30,23 @@ body {
     background-size: cover;
     padding: 0 30px 40px 30px;
     height: 500px;
-    width: 75%;
+    width: 100%;
     background-position: center;
   }
   
   .roasting {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 30px 20px 40px 30px;
     background-color: #FFFFFF;
     /* overflow: auto; */
     height: fit-content;
-    width: 75%;
+    width: 100%;
     border-radius: 4px;
-    align-self: center;
+    /* align-self: center; */
   }
   
   .roasting p {
@@ -55,6 +60,7 @@ body {
 
   #coffees {
     height: 100%;
+    width: 100%;
   }
   
   #coffees div {
@@ -138,9 +144,9 @@ body {
   
   /* Page elements */
   ul {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    width: 75%;
+    width: 100%;
   }
   
   li {
@@ -235,3 +241,20 @@ body {
     opacity: 100%;
   }
   
+  @media screen and (max-width: 600px) {
+
+    #root {
+      padding: 0 5%;
+    }
+    .header {
+      height: 100px;
+      /* padding: 20px 30px 40px 30px; */
+    }
+
+    .roasting {
+      margin: 10px 0;
+      padding: 10px 20px 40px 10px;
+    }
+
+    
+  }
