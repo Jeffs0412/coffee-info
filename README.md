@@ -4,7 +4,7 @@ Welcome to "The Best Coffee - By Region" project! This single-page website provi
 
 ## Live Demo
 
-Check out the live demo of the project: [The Best Coffee - By Region Demo](https://example.com)
+Check out the live demo of the project: https://jeffs0412.github.io/coffee-info/
 
 ## Features
 
